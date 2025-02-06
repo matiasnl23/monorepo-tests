@@ -1,5 +1,11 @@
 # @matiasnl-sdk/anime
 
+## 0.1.8
+
+### Patch Changes
+
+- Add missing types
+
 ## 0.1.7
 
 ### Patch Changes
