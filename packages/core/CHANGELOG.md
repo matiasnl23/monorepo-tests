@@ -1,5 +1,11 @@
 # @matiasnl-sdk/core
 
+## 0.1.2
+
+### Patch Changes
+
+- change names
+
 ## 0.1.1
 
 ### Patch Changes

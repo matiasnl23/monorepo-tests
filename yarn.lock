@@ -514,19 +514,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@matiasnl23-sdk/anime@workspace:packages/anime":
+"@matiasnl23/sdk-test-anime@workspace:packages/anime":
   version: 0.0.0-use.local
-  resolution: "@matiasnl23-sdk/anime@workspace:packages/anime"
+  resolution: "@matiasnl23/sdk-test-anime@workspace:packages/anime"
   dependencies:
-    "@matiasnl23-sdk/core": "workspace:^"
+    "@matiasnl23/sdk-test-core": "workspace:^"
     typescript: "npm:~5.7.2"
     vite: "npm:^6.1.0"
   languageName: unknown
   linkType: soft
 
-"@matiasnl23-sdk/core@workspace:^, @matiasnl23-sdk/core@workspace:packages/core":
+"@matiasnl23/sdk-test-core@workspace:^, @matiasnl23/sdk-test-core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@matiasnl23-sdk/core@workspace:packages/core"
+  resolution: "@matiasnl23/sdk-test-core@workspace:packages/core"
   dependencies:
     axios: "npm:^1.7.9"
     typescript: "npm:~5.7.2"
