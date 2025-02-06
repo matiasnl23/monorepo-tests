@@ -1,10 +1,13 @@
 {
-  "name": "@matiasnl-sdk/menus",
+  "name": "@matiasnl-sdk/anime",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@matiasnl-sdk/core": "workspace:^"
   },
   "devDependencies": {
     "typescript": "~5.7.2",
