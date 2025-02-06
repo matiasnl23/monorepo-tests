@@ -1,4 +1,11 @@
 {
-  "name": "js-sdk",
-  "packageManager": "yarn@4.1.1"
+  "name": "matiasnl23-sdk",
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.12"
+  }
 }
