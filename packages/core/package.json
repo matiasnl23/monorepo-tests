@@ -1,21 +1,21 @@
 {
   "name": "@matiasnl23/sdk-test-core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/code.umd.js",
-  "module": "./dist/code.js",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/core.js"
+        "default": "./dist/index.js"
       },
       "require": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/core.umd.js"
+        "default": "./dist/index.umd.cjs"
       }
     }
   },

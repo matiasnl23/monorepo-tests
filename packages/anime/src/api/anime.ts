@@ -1,5 +1,8 @@
-import { getClient } from "@matiasnl-sdk/core";
-import type { ApiPaginatedResponse, ApiResponse } from "@matiasnl-sdk/core";
+import { getClient } from "@matiasnl23/sdk-test-core";
+import type {
+  ApiPaginatedResponse,
+  ApiResponse,
+} from "@matiasnl23/sdk-test-core";
 import {
   AnimeDetails,
   AnimeDetailsFull,

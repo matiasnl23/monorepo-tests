@@ -5,8 +5,8 @@ export default defineConfig({
   plugins: [dts()],
   build: {
     lib: {
-      entry: "src/index.ts",
-      name: "@matiasnl-sdk/anime",
+      entry: ["src/index.ts"],
+      name: "@matiasnl23/sdk-test-anime",
     },
   },
 });
