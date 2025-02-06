@@ -5,6 +5,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build:all": "yarn workspaces foreach --all -tp run build",
+    "publish:all": "yarn workspaces foreach --all -tp npm publish"
+  },
   "dependencies": {
     "@changesets/cli": "^2.27.12"
   }

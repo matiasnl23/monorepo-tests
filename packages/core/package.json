@@ -1,8 +1,10 @@
 {
-  "name": "@matiasnl-sdk/core",
+  "name": "@matiasnl23-sdk/core",
   "version": "0.1.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/code.umd.js",
   "module": "./dist/code.js",
   "exports": {
@@ -27,5 +29,8 @@
   },
   "dependencies": {
     "axios": "^1.7.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
