@@ -2,9 +2,7 @@
   "name": "@matiasnl-sdk/core",
   "version": "0.1.0",
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "main": "./dist/code.umd.js",
   "module": "./dist/code.js",
   "exports": {
