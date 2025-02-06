@@ -1,5 +1,17 @@
 # @matiasnl-sdk/core
 
+## 0.1.5
+
+### Patch Changes
+
+- fix dependencies
+
+## 0.1.4
+
+### Patch Changes
+
+- fix dependencies
+
 ## 0.1.3
 
 ### Patch Changes

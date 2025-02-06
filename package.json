@@ -8,7 +8,7 @@
   "scripts": {
     "install:all": "yarn workspaces foreach --all",
     "build:all": "yarn workspaces foreach --all -tp run build",
-    "publish:all": "yarn workspaces foreach --all -tp npm publish"
+    "publish:all": "yarn workspaces foreach -Ap npm publish --tolerate-republish"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.12"

@@ -1,6 +1,6 @@
 {
   "name": "@matiasnl23/sdk-test-anime",
-  "version": "0.1.3",
+  "version": "0.1.7",
   "type": "module",
   "files": [
     "dist"
@@ -23,7 +23,7 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@matiasnl23/sdk-test-core": "workspace:^"
+    "@matiasnl23/sdk-test-core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "~5.7.2",
