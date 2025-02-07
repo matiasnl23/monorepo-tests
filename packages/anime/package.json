@@ -21,7 +21,9 @@
     }
   },
   "scripts": {
-    "build": "tsc && vite build"
+    "check-types": "tsc --noEmit",
+    "build": "vite build",
+    "publish": "npm publish --tolerate-republish"
   },
   "dependencies": {
     "@matiasnl23/sdk-test-core": "workspace:*"
