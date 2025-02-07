@@ -1,5 +1,13 @@
 # @matiasnl-sdk/anime
 
+## 0.1.11
+
+### Patch Changes
+
+- 5077516: Add turborepo
+- Updated dependencies [5077516]
+  - @matiasnl23/sdk-test-core@0.1.7
+
 ## 0.1.10
 
 ### Patch Changes

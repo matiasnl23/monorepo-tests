@@ -1,16 +1,18 @@
 {
   "name": "matiasnl23-sdk",
   "private": true,
-  "packageManager": "yarn@4.1.1",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "install:all": "yarn workspaces foreach -A",
-    "build:all": "yarn workspaces foreach -Atp run build",
-    "publish:all": "yarn workspaces foreach -Atp --no-private npm publish --tolerate-republish"
+    "build": "turbo check-types build",
+    "publish": "turbo publish"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.12"
-  }
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0"
+  },
+  "packageManager": "yarn@4.1.1"
 }

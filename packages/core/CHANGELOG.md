@@ -1,5 +1,11 @@
 # @matiasnl-sdk/core
 
+## 0.1.7
+
+### Patch Changes
+
+- 5077516: Add turborepo
+
 ## 0.1.6
 
 ### Patch Changes
