@@ -29,7 +29,8 @@ jobs:
       - name: Build
         run: yarn build
       - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
           # yarn config set npmAuthToken ${{secrets.NPM_TOKEN}}
-          export NPM_AUTH_TOKEN=${{secrets.NPM_TOKEN}}
           yarn changeset publish
