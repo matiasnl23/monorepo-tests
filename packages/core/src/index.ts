@@ -1,6 +1,2 @@
-export { getClient, setClient } from "./lib/client";
-export type {
-  ApiResponse,
-  ApiPaginatedResponse,
-  ApiError,
-} from "./types/client-response";
+export * from "./lib/client";
+export * from "./types";

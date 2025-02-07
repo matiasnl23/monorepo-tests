@@ -1,7 +1,2 @@
-export {
-  getAnimeById,
-  getAnimeCharactersById,
-  getAnimeEpisodeById,
-  getAnimeEpisodesById,
-  getAnimeFullById,
-} from "./api/anime";
+export * from "./api/anime";
+export * from "./types";
