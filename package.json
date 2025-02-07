@@ -6,9 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "install:all": "yarn workspaces foreach --all",
-    "build:all": "yarn workspaces foreach --all -tp run build",
-    "publish:all": "yarn workspaces foreach -Ap npm publish --tolerate-republish"
+    "install:all": "yarn workspaces foreach -A",
+    "build:all": "yarn workspaces foreach -Atp run build",
+    "publish:all": "yarn workspaces foreach -Atp --no-private npm publish --tolerate-republish"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.12"
