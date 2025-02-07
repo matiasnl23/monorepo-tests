@@ -3,6 +3,7 @@ import {
   Character,
   MALAnimeRelation,
   MALMangaRelation,
+  MALVoiceRelation,
 } from "../types/characters";
 
 const api = getClient();
@@ -18,3 +19,6 @@ export const getCharacterAnimeById = (characterId: number) =>
 
 export const getCharacterMangaById = (characterId: number) =>
   api.get<ApiResponse<MALMangaRelation[]>>(`characters/${characterId}/manga`);
+
+export const getCharacterVoiceActorsById = (characterId: number) =>
+  api.get<ApiResponse<MALVoiceRelation[]>>(`characters/${characterId}/voices`);
