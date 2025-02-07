@@ -1,6 +1,6 @@
 {
   "name": "@matiasnl23/sdk-test-genres",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": [
     "dist"
@@ -21,7 +21,9 @@
     }
   },
   "scripts": {
-    "build": "tsc && vite build"
+    "check-types": "tsc --noEmit",
+    "build": "vite build",
+    "publish": "npm publish --tolerate-republish"
   },
   "dependencies": {
     "@matiasnl23/sdk-test-core": "workspace:*"

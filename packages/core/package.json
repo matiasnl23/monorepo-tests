@@ -1,6 +1,6 @@
 {
   "name": "@matiasnl23/sdk-test-core",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "module",
   "files": [
     "dist"
@@ -20,7 +20,9 @@
     }
   },
   "scripts": {
-    "build": "tsc && vite build"
+    "check-types": "tsc --noEmit",
+    "build": "vite build",
+    "publish": "npm publish --tolerate-republish"
   },
   "devDependencies": {
     "typescript": "~5.7.2",
