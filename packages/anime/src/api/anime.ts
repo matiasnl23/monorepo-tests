@@ -9,7 +9,7 @@ import {
   AnimePicture,
   Character,
   Episode,
-} from "../types/anime";
+} from "../types";
 
 const api = getClient();
 
