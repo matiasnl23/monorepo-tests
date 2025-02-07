@@ -4,7 +4,7 @@ import {
   MALAnimeRelation,
   MALMangaRelation,
   MALVoiceRelation,
-} from "../types/characters";
+} from "../types";
 
 const api = getClient();
 
