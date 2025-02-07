@@ -1,5 +1,11 @@
 # @matiasnl-sdk/core
 
+## 0.1.9
+
+### Patch Changes
+
+- Remove publish scripts
+
 ## 0.1.8
 
 ### Patch Changes

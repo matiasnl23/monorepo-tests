@@ -1,5 +1,13 @@
 # @matiasnl23/sdk-test-genres
 
+## 0.1.3
+
+### Patch Changes
+
+- Remove publish scripts
+- Updated dependencies
+  - @matiasnl23/sdk-test-core@0.1.9
+
 ## 0.1.2
 
 ### Patch Changes

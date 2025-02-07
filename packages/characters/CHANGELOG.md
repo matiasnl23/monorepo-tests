@@ -1,5 +1,13 @@
 # @matiasnl23/sdk-test-characters
 
+## 0.1.5
+
+### Patch Changes
+
+- Remove publish scripts
+- Updated dependencies
+  - @matiasnl23/sdk-test-core@0.1.9
+
 ## 0.1.4
 
 ### Patch Changes

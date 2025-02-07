@@ -1,5 +1,13 @@
 # @matiasnl-sdk/anime
 
+## 0.1.13
+
+### Patch Changes
+
+- Remove publish scripts
+- Updated dependencies
+  - @matiasnl23/sdk-test-core@0.1.9
+
 ## 0.1.12
 
 ### Patch Changes
