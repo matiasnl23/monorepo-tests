@@ -32,5 +32,6 @@ jobs:
       - name: Publish
         run: |
           yarn changeset publish
+          yarn changeset tag
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
