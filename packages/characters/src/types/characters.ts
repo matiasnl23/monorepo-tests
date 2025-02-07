@@ -13,41 +13,47 @@ export interface Character {
 }
 
 export interface CharacterFull extends Character {
-  anime: {
-    role: string;
-    anime: {
-      mal_id: number;
-      url: string;
-      images: {
-        jpg: MALImage;
-        webp: MALImage;
-      };
-      title: string;
-    };
-  }[];
+  anime: MALAnimeRelation[];
+  manga: MALMangaRelation[];
+  voices: MALVoiceRelation[];
+}
+
+export interface MALMangaRelation {
+  role: string;
   manga: {
-    role: string;
-    manga: {
-      mal_id: number;
-      url: string;
-      images: {
-        jpg: MALImage;
-        webp: MALImage;
-      };
-      title: string;
+    mal_id: number;
+    url: string;
+    images: {
+      jpg: MALImage;
+      webp: MALImage;
     };
-  }[];
-  voices: {
-    language: string;
-    person: {
-      mal_id: 0;
-      url: string;
-      images: {
-        jpg: MALImage;
-      };
-      name: string;
+    title: string;
+  };
+}
+
+export interface MALAnimeRelation {
+  role: string;
+  anime: {
+    mal_id: number;
+    url: string;
+    images: {
+      jpg: MALImage;
+      webp: MALImage;
     };
-  }[];
+    title: string;
+  };
+}
+
+export interface MALVoiceRelation {
+  language: string;
+  person: {
+    mal_id: 0;
+    url: string;
+    images: {
+      jpg: MALImage;
+    };
+    name: string;
+  };
 }
 
 export interface MALRelation {
