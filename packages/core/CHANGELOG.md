@@ -1,5 +1,11 @@
 # @matiasnl-sdk/core
 
+## 0.1.6
+
+### Patch Changes
+
+- e78ddd9: Refactor exports in `core` and `anime` packages
+
 ## 0.1.5
 
 ### Patch Changes

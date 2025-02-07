@@ -545,6 +545,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@matiasnl23/sdk-test-genres@workspace:packages/genres":
+  version: 0.0.0-use.local
+  resolution: "@matiasnl23/sdk-test-genres@workspace:packages/genres"
+  dependencies:
+    "@matiasnl23/sdk-test-core": "workspace:*"
+    typescript: "npm:~5.7.2"
+    vite: "npm:^6.1.0"
+  languageName: unknown
+  linkType: soft
+
 "@microsoft/api-extractor-model@npm:7.30.3":
   version: 7.30.3
   resolution: "@microsoft/api-extractor-model@npm:7.30.3"

@@ -1,1 +1,2 @@
-export { getCharacterById, getFullCharacterById } from "./api/anime";
+export * from "./api/anime";
+export * from "./types";
