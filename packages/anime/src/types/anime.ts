@@ -114,6 +114,14 @@ export interface Episode {
   forum_url: string;
 }
 
+export interface AnimePicture {
+  images: {
+    jpg: {
+      image_url: string;
+    };
+  };
+}
+
 export interface MALRelation {
   mal_id: number;
   type: string;

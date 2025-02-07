@@ -1,5 +1,11 @@
 # @matiasnl-sdk/anime
 
+## 0.1.9
+
+### Patch Changes
+
+- Added new queries in anime package and a new package called characters
+
 ## 0.1.8
 
 ### Patch Changes

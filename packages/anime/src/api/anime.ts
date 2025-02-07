@@ -6,6 +6,7 @@ import type {
 import {
   AnimeDetails,
   AnimeDetailsFull,
+  AnimePicture,
   Character,
   Episode,
 } from "../types/anime";
@@ -28,3 +29,6 @@ export const getAnimeEpisodeById = async (animeId: number, episodeId: number) =>
 
 export const getAnimeCharactersById = async (animeId: number) =>
   api.get<ApiResponse<Character[]>>(`/anime/${animeId}/characters`);
+
+export const getAnimePicturesById = async (animeId: number) =>
+  api.get<ApiResponse<AnimePicture[]>>(`/anime/${animeId}/pictures`);

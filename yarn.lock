@@ -524,6 +524,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@matiasnl23/sdk-test-characters@workspace:packages/characters":
+  version: 0.0.0-use.local
+  resolution: "@matiasnl23/sdk-test-characters@workspace:packages/characters"
+  dependencies:
+    "@matiasnl23/sdk-test-core": "workspace:*"
+    typescript: "npm:~5.7.2"
+    vite: "npm:^6.1.0"
+  languageName: unknown
+  linkType: soft
+
 "@matiasnl23/sdk-test-core@workspace:*, @matiasnl23/sdk-test-core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@matiasnl23/sdk-test-core@workspace:packages/core"
