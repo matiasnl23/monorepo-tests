@@ -1,5 +1,13 @@
 # @matiasnl-sdk/anime
 
+## 0.1.10
+
+### Patch Changes
+
+- 3c29381: Refactor exports
+- Updated dependencies [e78ddd9]
+  - @matiasnl23/sdk-test-core@0.1.6
+
 ## 0.1.9
 
 ### Patch Changes
