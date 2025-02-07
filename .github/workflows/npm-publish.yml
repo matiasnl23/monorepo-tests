@@ -31,4 +31,4 @@ jobs:
       - name: Publish
         run: |
           yarn config set npmAuthToken ${{secrets.NPM_TOKEN}}
-          yarn publish
+          yarn changeset publish
