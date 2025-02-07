@@ -21,8 +21,7 @@
   },
   "scripts": {
     "check-types": "tsc --noEmit",
-    "build": "vite build",
-    "publish": "npm publish --tolerate-republish"
+    "build": "vite build"
   },
   "devDependencies": {
     "typescript": "~5.7.2",

@@ -31,8 +31,6 @@ jobs:
         run: yarn build
       - name: Publish
         run: |
-          # yarn config set npmAuthToken ${{secrets.NPM_TOKEN}}
-          echo $NODE_AUTH_TOKEN
           yarn changeset publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
