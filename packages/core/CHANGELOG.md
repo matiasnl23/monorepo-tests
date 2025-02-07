@@ -1,5 +1,11 @@
 # @matiasnl-sdk/core
 
+## 0.1.8
+
+### Patch Changes
+
+- Bump versions
+
 ## 0.1.7
 
 ### Patch Changes

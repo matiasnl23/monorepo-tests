@@ -1,5 +1,13 @@
 # @matiasnl23/sdk-test-characters
 
+## 0.1.4
+
+### Patch Changes
+
+- Bump versions
+- Updated dependencies
+  - @matiasnl23/sdk-test-core@0.1.8
+
 ## 0.1.3
 
 ### Patch Changes

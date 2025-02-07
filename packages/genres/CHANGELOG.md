@@ -1,5 +1,13 @@
 # @matiasnl23/sdk-test-genres
 
+## 0.1.2
+
+### Patch Changes
+
+- Bump versions
+- Updated dependencies
+  - @matiasnl23/sdk-test-core@0.1.8
+
 ## 0.1.1
 
 ### Patch Changes
